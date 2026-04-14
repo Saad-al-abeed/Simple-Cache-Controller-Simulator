@@ -1,5 +1,8 @@
 # Simple Cache Controller Simulator
 
+<img width="443" height="408" alt="image" src="https://github.com/user-attachments/assets/fdffd701-2e86-4c5d-a27f-8f486c999163" />
+
+
 ## Description
 This project provides a C++ simulation of a basic cache controller state machine. It simulates memory requests (read/write) and accurately models the behavior of an underlying cache system through distinct operational stages, including:
 - **Idle**: Waiting for the next memory request.
