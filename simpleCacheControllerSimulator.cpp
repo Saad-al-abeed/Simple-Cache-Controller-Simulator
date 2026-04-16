@@ -35,7 +35,7 @@ public:
 
     void setMissRandomly() {
         std::bernoulli_distribution dist(0.9); // 90% miss chance
-        dirtyBit = dist(getGlobalGenerator());
+        miss = dist(getGlobalGenerator());
     } // this function randomly sets cache miss to either true or false
 
     //constructor
